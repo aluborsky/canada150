@@ -2,8 +2,17 @@
   Base Styles
 ******************************************************************************/
 body {
-
+	color: #000;
+	letter-spacing: 1.5px;
 }
+
+h2 {
+	margin: 7% 7%;
+	text-align: center;
+	line-height: 1.7em;
+	font-size: 1.7em;
+}
+
 
 
 
@@ -11,8 +20,22 @@ body {
   Layout Styles
 ******************************************************************************/
 
+/* Enable hover dropdown for nav */
+.dropdown:hover .dropdown-menu {
+	display: block;
+}
 
 
+/* Video embed on homepage */
+section.video {
+	margin-top: 50px;
+	width: 100%;
+	background-color: rgba(240, 26, 36, 1);
+}
+
+.embed-responsive-item {
+	padding: 50px;
+}
 
 /*****************************************************************************
   Module Styles
@@ -40,3 +63,8 @@ body {
 	min-width: 100%;
 	height: 500px;
 }
+
+/* Navbar ---------------------------------- 
+.navbar-fixed-top .nav {
+	padding: 15px;
+} */
