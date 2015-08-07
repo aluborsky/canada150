@@ -9,8 +9,6 @@ body {
 h2 {
 	margin: 7% 7%;
 	text-align: center;
-	line-height: 1.7em;
-	font-size: 1.7em;
 }
 
 
@@ -21,9 +19,9 @@ h2 {
 ******************************************************************************/
 
 /* Enable hover dropdown for nav */
-.dropdown:hover .dropdown-menu {
+/*.dropdown:hover .dropdown-menu {
 	display: block;
-}
+}*/
 
 
 /* Video embed on homepage */
@@ -35,6 +33,15 @@ section.video {
 
 .embed-responsive-item {
 	padding: 50px;
+}
+
+.lead {
+	line-height: 1.6;
+}
+
+/* Buttons ---------------------------------- */
+.btn-danger {
+	background-color: #f01a24;
 }
 
 /*****************************************************************************
@@ -64,7 +71,13 @@ section.video {
 	height: 500px;
 }
 
-/* Navbar ---------------------------------- 
-.navbar-fixed-top .nav {
+/* Navbar ---------------------------------- */
+.navbar-default {
 	padding: 15px;
-} */
+	background-color: #fff;
+}
+
+.navbar-default .navbar-nav > li > a:hover {
+	color: #fff;
+	background-color: #f01a24;
+}
