@@ -2,13 +2,32 @@
   Base Styles
 ******************************************************************************/
 body {
+	font-size: 1.5em;
+	letter-spacing: 1.0px;
 	color: #000;
-	letter-spacing: 1.5px;
+}
+
+footer {
+	font-size: 0.7em;
+	padding: 8px;
+	background-color: #e7e7e7;
+	border-top: 1px solid #CACACA;
+}
+
+footer p {
+	margin-bottom: 0px;
+
 }
 
 h2 {
 	margin: 7% 7%;
-	text-align: center;
+}
+
+/* Video embed on homepage */
+section.video {
+	margin-top: 50px;
+	width: 100%;
+	background-color: rgba(240, 26, 36, 1);
 }
 
 
@@ -18,17 +37,16 @@ h2 {
   Layout Styles
 ******************************************************************************/
 
-/* Enable hover dropdown for nav */
-/*.dropdown:hover .dropdown-menu {
-	display: block;
-}*/
+.container-fluid {
+	margin: auto 10%;
+}
 
 
-/* Video embed on homepage */
-section.video {
-	margin-top: 50px;
-	width: 100%;
-	background-color: rgba(240, 26, 36, 1);
+/* Enable hover dropdown for nav on desktop */
+@media only screen and (min-width : 768px) {
+    .dropdown:hover .dropdown-menu {
+        display: block;
+    }
 }
 
 .embed-responsive-item {
@@ -48,33 +66,16 @@ section.video {
   Module Styles
 ******************************************************************************/
 
-/* Carousel ---------------------------------- */
-.carousel {
-	height: 500px;
-	margin-bottom: 60px;
-}
-
-.carousel-caption {
-	z-index: 10;
-}
-
-.carousel .item {
-	height: 500px;
-	background-color: #777;
-}
-
-.carousel-inner > .item > img {
-	position: absolute;
-	top: 0;
-	bottom: 0;
-	min-width: 100%;
-	height: 500px;
-}
-
 /* Navbar ---------------------------------- */
 .navbar-default {
-	padding: 15px;
+	padding: 8px;
 	background-color: #fff;
+	border-color: #000;
+	border-bottom: 1px solid #000;
+}
+
+.navbar-default .navbar-nav > li > a {
+	color: #000;
 }
 
 .navbar-default .navbar-nav > li > a:hover {
