@@ -3,6 +3,7 @@
 ******************************************************************************/
 body {
 	font-size: 1.5em;
+	font-weight: 300;
 	letter-spacing: 1.0px;
 	color: #000;
 }
@@ -19,33 +20,35 @@ footer p {
 
 }
 
-h2 {
-	margin: 7% 7%;
-}
+
 
 /* Video embed on homepage */
 section.video {
 	margin-top: 50px;
-	width: 100%;
-	background-color: rgba(240, 26, 36, 1);
 }
 
+section {
+	padding: 20px;
+}
 
+section.red {
+	background-color: rgba(240, 26, 36, 1);
+	color: #fff;
+}
 
 
 /*****************************************************************************
   Layout Styles
 ******************************************************************************/
 
-.container-fluid {
-	margin: auto 10%;
-}
-
-
 /* Enable hover dropdown for nav on desktop */
 @media only screen and (min-width : 768px) {
     .dropdown:hover .dropdown-menu {
         display: block;
+    }
+
+    .container-fluid {
+    	margin: auto 15%;
     }
 }
 
@@ -72,13 +75,26 @@ section.video {
 	background-color: #fff;
 	border-color: #000;
 	border-bottom: 1px solid #000;
+	font-family: ;
+	font-weight: 400;
+	box-shadow: 0px 0px 10px #000;
 }
+
+.navbar-default .navbar-toggle {
+	border-color: transparent;
+}
+
+.navbar-default .navbar-toggle .icon-bar {
+	background-color: #000;
+}
+
 
 .navbar-default .navbar-nav > li > a {
 	color: #000;
 }
 
-.navbar-default .navbar-nav > li > a:hover {
-	color: #fff;
-	background-color: #f01a24;
+.navbar-default .navbar-nav > li > a:hover,
+.dropdown-menu > li > a:hover {
+	color: #f01a24;
+	transition: 0.3s all;
 }
