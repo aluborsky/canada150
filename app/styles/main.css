@@ -20,19 +20,19 @@ footer p {
 
 }
 
+.img-responsive {
+	display: inline-block;
+}
+
 /* Video embed on homepage */
 section.first {
-	margin-top: 50px;
+	margin-top: 60px;
 }
 
 section {
-	padding: 20px;
+
 }
 
-section.red {
-	background-color: rgba(240, 26, 36, 1);
-	color: #fff;
-}
 
 a, a:visited, a:hover, a:active, a:focus {
 	transition: 0.3s all;
@@ -53,6 +53,20 @@ a:hover, a:focus {
 /*****************************************************************************
   Layout Styles
 ******************************************************************************/
+
+.red-bg {
+	background-color: rgba(240, 26, 36, 1);
+	color: #fff;
+}
+
+
+.img-circle {
+	border-radius: 16%;
+	margin: 50px 45px;
+}
+
+
+
 
 /* Enable hover dropdown for nav on desktop */
 @media only screen and (min-width : 768px) {
