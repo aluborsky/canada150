@@ -20,10 +20,6 @@ footer p {
 
 }
 
-.img-responsive {
-	display: inline-block;
-}
-
 /* Video embed on homepage */
 section.first {
 	margin-top: 60px;
@@ -32,6 +28,24 @@ section.first {
 section {
 
 }
+
+h1, h2, h3, h4, h5, h6 {
+		font-family: 'Lato', sans-serif;
+}
+
+p {
+	font-family: 'Lato', sans-serif;
+	line-height: 1.7em;
+}
+
+	.p-heading {
+			margin-top: 25px;
+	}
+
+	.h-heading {
+			margin-top: 9%;
+			font-weight: 600;
+	}
 
 
 a, a:visited, a:hover, a:active, a:focus {
@@ -44,10 +58,6 @@ a, a:visited {
 
 a:hover, a:focus {
 	color: #f01a24;
-}
-
-@media only screen and (min-width : 768px) {
-
 }
 
 /*****************************************************************************
@@ -65,18 +75,12 @@ a:hover, a:focus {
 	margin: 50px 45px;
 }
 
+.img-responsive {
+	display: inline-block;
+}
 
-
-
-/* Enable hover dropdown for nav on desktop */
-@media only screen and (min-width : 768px) {
-    .dropdown:hover .dropdown-menu {
-        display: block;
-    }
-
-    .container-fluid {
-    	margin: auto 15%;
-    }
+.glyphicon-chevron-right {
+	color: 	#f01a24;
 }
 
 .embed-responsive-item {
@@ -85,6 +89,17 @@ a:hover, a:focus {
 
 .lead {
 	line-height: 1.6;
+}
+
+/* Enable hover dropdown for nav on desktop -- */
+@media only screen and (min-width : 768px) {
+    .dropdown:hover .dropdown-menu {
+        display: block;
+    }
+
+    .container-fluid {
+    	margin: auto 15%;
+    }
 }
 
 /* Buttons ---------------------------------- */
@@ -99,6 +114,7 @@ a:hover, a:focus {
   Module Styles
 ******************************************************************************/
 
+
 /* Navbar ---------------------------------- */
 .navbar-default {
 	padding: 8px;
@@ -106,7 +122,7 @@ a:hover, a:focus {
 	border-color: #000;
 	border-bottom: 1px solid #000;
 	font-family: ;
-	font-weight: 400;
+	font-weight: 500;
 	box-shadow: 0px 0px 10px #000;
 }
 
@@ -138,6 +154,8 @@ a:hover, a:focus {
 .dropdown-menu > li > a {
 	padding: 8px 20px;
 }
+
+
 
 @media only screen and (max-width : 768px) {
 	.navbar-default .navbar-nav .open .dropdown-menu > li > a {
