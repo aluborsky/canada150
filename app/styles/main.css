@@ -20,7 +20,6 @@ footer p {
 
 }
 
-/* Video embed on homepage */
 section.first {
 	margin-top: 60px;
 }
@@ -31,6 +30,7 @@ h1, h2, h3, h4, h5, h6 {
 
 h1 {
 	position: absolute;
+	top: 80px;
 	font-size: 1.8em;
 	font-weight: 600;
 	background-color: rgba(240, 26, 36, 0.7);
@@ -110,12 +110,17 @@ a:hover, a:focus {
 	color: 	#f01a24;
 }
 
-.embed-responsive-item {
-	padding: 40px;
+.hp-logo {
+	padding-top: 10px;
 }
 
-/* Enable hover dropdown for nav on desktop -- */
+.form-control {
+	padding: 15px;
+	height: 3.5em;
+}
+
 @media only screen and (min-width : 768px) {
+    /* Enable hover dropdown for nav on desktop -- */
     .dropdown:hover .dropdown-menu {
         display: block;
     }
@@ -123,6 +128,10 @@ a:hover, a:focus {
     .container-fluid {
     	margin: auto 15%;
     }
+
+    .hp-logo {
+	padding-top: 70px;
+	}
 }
 
 /* Buttons ---------------------------------- */
