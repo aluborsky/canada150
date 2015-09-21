@@ -9,8 +9,9 @@ body {
 }
 
 footer {
+	padding: 15px;
+	margin-top: 15px;
 	font-size: 0.7em;
-	padding: 8px;
 	background-color: #f5f5f5;
 	border-top: 1px solid #e7e7e7;
 }
@@ -30,7 +31,6 @@ h1, h2, h3, h4, h5, h6 {
 
 h1 {
 	position: absolute;
-	top: 80px;
 	font-size: 1.8em;
 	font-weight: 600;
 	background-color: rgba(240, 26, 36, 0.7);
@@ -38,7 +38,7 @@ h1 {
 }
 
 h3 {
-	margin: 30px auto;
+	margin: 40px auto;
 	font-weight: 600;
 }
 
@@ -48,7 +48,7 @@ p {
 }
 
 	.p-heading {
-			margin-top: 25px;
+		margin-top: 25px;
 	}
 
 	.p-address {
@@ -77,15 +77,26 @@ a:hover, a:focus {
 	}
 
 	h1 {
-		top: 10%;
+		/*top: 11%;*/
+		margin-top: 30px;
 		font-size: 3.5em;
 	}
 
+	footer {
+		margin-top: 40px;
+	}
+
+	.p-heading {
+		margin-top: 25px;
+	}
 }
 
 /*****************************************************************************
   Layout Styles
 ******************************************************************************/
+.p-partners {
+	margin: 0px;
+}
 
 .red-bg {
 	background-color: rgba(240, 26, 36, 1);
@@ -98,7 +109,7 @@ a:hover, a:focus {
 }
 
 .h-heading {
-	margin-top: 30px;
+	margin-top: 20px;
 }
 
 .r-partners {
@@ -132,6 +143,14 @@ a:hover, a:focus {
     .hp-logo {
 	padding-top: 70px;
 	}
+
+	.lead {
+		margin-top: 40px;
+	}
+
+	.h-heading {
+	margin-top: 40px;
+	}
 }
 
 /* Buttons ---------------------------------- */
@@ -158,7 +177,7 @@ a:hover, a:focus {
 }
 
 .navbar-brand {
-	padding: 0px;
+	padding: 0px 15px;
 }
 
 .navbar-default .navbar-toggle {
@@ -190,6 +209,7 @@ a:hover, a:focus {
 
 .dropdown-menu > li > a {
 	padding: 8px 20px;
+	font-size: 1.1em;
 	text-decoration: none;
 }
 
