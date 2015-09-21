@@ -9,15 +9,20 @@ body {
 }
 
 footer {
-	font-size: 0.7em;
-	padding: 8px;
+	padding: 15px;
+	margin-top: 15px;
+	font-size: 0.8em;
 	background-color: #f5f5f5;
 	border-top: 1px solid #e7e7e7;
 }
 
 footer p {
-	margin-bottom: 0px;
+	margin-top: 10px;
 
+}
+
+footer a {
+	padding-left: 11px;
 }
 
 section.first {
@@ -25,20 +30,19 @@ section.first {
 }
 
 h1, h2, h3, h4, h5, h6 {
-		font-family: 'Lato', sans-serif;
+	font-family: 'Lato', sans-serif;
 }
 
 h1 {
 	position: absolute;
-	top: 80px;
+	padding: 5px;
 	font-size: 1.8em;
 	font-weight: 600;
 	background-color: rgba(240, 26, 36, 0.7);
-	padding: 5px;
 }
 
 h3 {
-	margin: 30px auto;
+	margin: 40px auto;
 	font-weight: 600;
 }
 
@@ -48,7 +52,7 @@ p {
 }
 
 	.p-heading {
-			margin-top: 25px;
+		margin-top: 25px;
 	}
 
 	.p-address {
@@ -77,15 +81,27 @@ a:hover, a:focus {
 	}
 
 	h1 {
-		top: 10%;
+		/*top: 11%;*/
+		margin-top: 30px;
 		font-size: 3.5em;
 	}
 
+	footer {
+		margin-top: 40px;
+		font-size: 0.9em;
+	}
+
+	.p-heading {
+		margin-top: 25px;
+	}
 }
 
 /*****************************************************************************
   Layout Styles
 ******************************************************************************/
+.p-partners {
+	margin: 0px;
+}
 
 .red-bg {
 	background-color: rgba(240, 26, 36, 1);
@@ -98,7 +114,7 @@ a:hover, a:focus {
 }
 
 .h-heading {
-	margin-top: 30px;
+	margin-top: 20px;
 }
 
 .r-partners {
@@ -106,7 +122,7 @@ a:hover, a:focus {
 }
 
 .glyphicon-chevron-right ,
-.glyphicon-ok{
+.glyphicon-file {
 	color: 	#f01a24;
 }
 
@@ -117,6 +133,10 @@ a:hover, a:focus {
 .form-control {
 	padding: 15px;
 	height: 3.5em;
+}
+
+.video {
+	padding: 0px;
 }
 
 @media only screen and (min-width : 768px) {
@@ -130,7 +150,19 @@ a:hover, a:focus {
     }
 
     .hp-logo {
-	padding-top: 70px;
+		padding-top: 70px;
+	}
+
+	.lead {
+		margin-top: 40px;
+	}
+
+	.h-heading {
+		margin-top: 40px;
+	}
+
+	.p-heading {
+		margin-top: 40px;
 	}
 }
 
@@ -139,6 +171,13 @@ a:hover, a:focus {
 	padding: 6px 20px;
 	background-color: #f01a24;
 	font-weight: 600;
+	border-radius: 15px;
+}
+
+.btn-success {
+	padding: 6px 20px;
+	font-weight: 600;
+	border: 0px;
 	border-radius: 15px;
 }
 
@@ -157,6 +196,10 @@ a:hover, a:focus {
 	box-shadow: 0px 0px 10px #000;
 }
 
+.navbar-brand {
+	padding: 0px 15px;
+}
+
 .navbar-default .navbar-toggle {
 	border-color: transparent;
 }
@@ -168,6 +211,7 @@ a:hover, a:focus {
 .navbar-default .navbar-nav > li > a {
 	color: #000;
 	text-decoration: none;
+	font-size: 1.1em;
 }
 
 .navbar-default .navbar-nav > li > a:hover,
@@ -185,6 +229,7 @@ a:hover, a:focus {
 
 .dropdown-menu > li > a {
 	padding: 8px 20px;
+	font-size: 1.1em;
 	text-decoration: none;
 }
 
