@@ -6,6 +6,7 @@ body {
 	font-weight: 300;
 	letter-spacing: 1.0px;
 	color: #000;
+	font-family: 'Lato', Helvetica, Arial, sans-serif;
 }
 
 footer {
@@ -29,10 +30,6 @@ section.first {
 	margin-top: 60px;
 }
 
-h1, h2, h3, h4, h5, h6 {
-	font-family: 'Lato', sans-serif;
-}
-
 h1 {
 	position: absolute;
 	padding: 5px;
@@ -47,7 +44,6 @@ h3 {
 }
 
 p {
-	font-family: 'Lato', sans-serif;
 	line-height: 1.7em;
 }
 
@@ -172,6 +168,7 @@ a:hover, a:focus {
 	background-color: #f01a24;
 	font-weight: 600;
 	border-radius: 15px;
+	font-family: Helvetica, Arial, sans-serif;
 }
 
 .btn-success {
@@ -179,6 +176,7 @@ a:hover, a:focus {
 	font-weight: 600;
 	border: 0px;
 	border-radius: 15px;
+	font-family: Helvetica, Arial, sans-serif;
 }
 
 /*****************************************************************************
@@ -194,6 +192,7 @@ a:hover, a:focus {
 	font-family: ;
 	font-weight: 500;
 	box-shadow: 0px 0px 10px #000;
+	font-family: Helvetica, Arial, sans-serif;
 }
 
 .navbar-brand {
