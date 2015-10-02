@@ -82,17 +82,17 @@
         <div class="row">
           <div class="col-md-8 col-md-offset-2 text-center">
             <p class="p-heading text-center">Please fill out the following form to reach us or call <span class="glyphicon glyphicon-earphone" aria-hidden="true"></span>&nbsp;<a href="tel:416-264-4665">416-264-4665</a>.</p>
-            <form action="MAILTO:andrew.luborsky@gmail.com?subject=LOL&body=this is the body" method="GET" enctype="text/plain">
+            <form action="//formspree.io/andrew.luborsky@gmail.com" method="POST">
               <div class="form-group">
-                <input type="text" class="form-control" id="name" size="200" placeholder="Name"> 
+                <input type="text" class="form-control" name="name" size="200" placeholder="Name"> 
               </div>
-<!--               <div class="form-group">
-                <input type="email" class="form-control" id="email" maxlength="80" placeholder="Email Address">
-              </div> -->
+              <div class="form-group">
+                <input type="email" class="form-control" name="_replyto" size="200" placeholder="E-mail Address"> 
+              </div>
               <div class="form-group">
                 <textarea class="form-control" id="message" placeholder="Message" rows="8"></textarea>
               </div>
-              <button type="submit" class="btn btn-danger">Send</button>
+              <button type="submit" class="btn btn-danger" value="Send">Send</button>
               <p></p>
             </form>
           </div>
@@ -106,7 +106,7 @@
       <div class="container">
         <div class="row">
           <div class="col-md-9">
-            <p>&copy; 2015 Canada150 | <a href="legal.html">Legal</a></p>
+            <p>&copy; 2015 Our Canada, Our Stories |<a href="legal.html">Legal</a></p>
           </div>
           <div class="col-md-3">
             <a href="https://www.facebook.com/canada150" target="_blank"><img src="images/fb.png" width="36px" alt="Facebook"></a>
