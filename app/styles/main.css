@@ -130,6 +130,11 @@ a:hover, a:focus {
 	height: 3.5em;
 }
 
+.form-control:focus {
+	border-color: #f01a24;
+	box-shadow: inset 0 1px 1px rgba(0,0,0,.075),0 0 8px rgba(240,26,36,.2);
+}
+
 .video {
 	padding: 0px;
 }
