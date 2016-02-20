@@ -194,7 +194,6 @@ a:hover, a:focus {
 	background-color: #fff;
 	border-color: #000;
 	border-bottom: 1px solid #000;
-	font-family: ;
 	font-weight: 500;
 	box-shadow: 0px 0px 6px #000;
 	font-family: Helvetica, Arial, sans-serif;
@@ -215,7 +214,7 @@ a:hover, a:focus {
 .navbar-default .navbar-nav > li > a {
 	color: #000;
 	text-decoration: none;
-	font-size: 1.1em;
+	font-size: 1.0em;
 }
 
 .navbar-default .navbar-nav > li > a:hover,
@@ -237,6 +236,15 @@ a:hover, a:focus {
 	text-decoration: none;
 }
 
+.navbar-default .navbar-nav > li > .lang-fr {
+	font-size: 0.8em;
+	margin-left: 15px;
+	margin-top: 12px;
+	border-left: 1px solid #9A9A9A;
+	padding: 5px 0 5px 20px;
+	color: #9A9A9A;
+}
+
 @media only screen and (max-width : 768px) {
 	.navbar-default .navbar-nav .open .dropdown-menu > li > a {
 	  color: #000;
@@ -245,5 +253,13 @@ a:hover, a:focus {
 	.navbar-default .navbar-nav .open .dropdown-menu > li > a:focus {
 	  color: #f01a24;
 	  background-color: #f5f5f5; 
+	}
+
+	.navbar-default .navbar-nav > li > .lang-fr {
+		font-size: 1.0em;
+		margin-left: 0;
+		margin-top: 0;
+		padding: 10px 15px;
+		border-left: none;
 	}
 }
